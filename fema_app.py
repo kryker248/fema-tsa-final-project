@@ -36,4 +36,10 @@ fig_box = px.box(
 )
 st.plotly_chart(fig_box)
 
+st.markdown(
+    "*Insight:* Repair amounts are highly right-skewed. Most households receive relatively small repair awards, "
+    "and TSA-eligible households tend to have slightly higher repair amounts than non-eligible households."
+)
+
+
 st.write("Authors: Kyle Ryker & Julia McDemott")
