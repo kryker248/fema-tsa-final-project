@@ -36,4 +36,4 @@ fig_box = px.box(
 )
 st.plotly_chart(fig_box)
 
-st.write("Author: Your Name")
+st.write("Authors: Kyle Ryker & Julia McDemott")
